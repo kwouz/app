@@ -1,0 +1,19 @@
+Create a full minimal design system for a calm emotional tracking app.
+
+Requirements:
+- Light theme only (dark optional later)
+- Warm off-white background
+- Soft muted accent
+- No gradients
+- No glassmorphism
+- No shadows except very subtle
+- Rounded corners 16–20px
+- Calm typography
+
+Define:
+- Color palette (HEX)
+- Typography scale
+- Spacing system
+- Border radius
+- Button states
+- Mood selection component

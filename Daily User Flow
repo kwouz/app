@@ -1,0 +1,12 @@
+Design a minimal UX flow for a daily emotional check-in app.
+
+Pages:
+- Language selection
+- Onboarding (2 screens)
+- Daily check-in
+- History
+- Report
+- Settings
+
+Keep flow extremely simple.
+One main action per screen.

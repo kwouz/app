@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains secrets!)
+.env
+server/.env
+
+# Build output
+dist/
+
+# Local Netlify folder
+.netlify
+
+# SQLite databases
+*.db
+
+# OS files
+.DS_Store
