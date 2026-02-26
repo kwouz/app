@@ -15,6 +15,7 @@ import Report from './pages/Report';
 import Insights from './pages/Insights';
 import SettingsPage from './pages/Settings';
 import Chat from './pages/Chat';
+import OnboardingOverlay from './components/OnboardingOverlay';
 
 function AppRoutes() {
     const [ready, setReady] = useState(false);
@@ -94,6 +95,7 @@ function AppRoutes() {
                 <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
             <BottomNav />
+            <OnboardingOverlay />
         </>
     );
 }

@@ -128,7 +128,7 @@ export default function Home() {
                 {t('home_question')}
             </h1>
 
-            <div className="mood-circle-grid">
+            <div className="mood-circle-grid" data-onboarding="mood-grid">
                 {/* Dividers */}
                 <div className="mood-divider mood-divider--v" />
                 <div className="mood-divider mood-divider--h1" />
@@ -169,6 +169,7 @@ export default function Home() {
                             } as React.CSSProperties}
                             onClick={() => handleTap(mood)}
                             disabled={tapping}
+                            data-onboarding={i === 0 ? 'mood-circle-0' : undefined}
                         >
                             <div
                                 className="mood-circle"
